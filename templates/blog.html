@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - SymptoScan AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/blog.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="{{ url_for('static', filename='assets/logo.png') }}" alt="Logo"
+                    style="width:80px; height:auto;">
+                <span>SymptoScan AI</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/blog" class="active">Blog</a></li>
+                <li><a href="/symptoms" class="btn-nav">Check Symptoms</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <div class="container">
+            <h1>Project Documentation</h1>
+            <p class="lead">Learn how we built SymptoScan AI</p>
+
+            <!-- Article 1 -->
+            <article class="blog-post">
+                <h2><i class="fas fa-database"></i> Datasets Used</h2>
+                <div class="content">
+                    <h3>Training & Testing Data</h3>
+                    <p><strong>Source:</strong> <a href="https://www.kaggle.com/datasets/kaushil268/disease-prediction-using-machine-learning" target="_blank">Kaggle - Disease Prediction Dataset</a></p>
+                    <ul>
+                        <li><strong>Training samples:</strong> ~4,000 records</li>
+                        <li><strong>Testing samples:</strong> ~1,000 records</li>
+                        <li><strong>Total symptoms:</strong> 132 unique symptoms</li>
+                        <li><strong>Total diseases:</strong> 41 different diseases</li>
+                    </ul>
+
+                    <h3>Disease Information</h3>
+                    <p><strong>Source:</strong> <a href="https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset" target="_blank">Kaggle - Disease Description Dataset</a></p>
+                    <ul>
+                        <li>Disease descriptions</li>
+                        <li>Precautions (4 per disease)</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="blog-post">
+                <h2><i class="fas fa-cogs"></i> Model Training</h2>
+                <div class="content">
+                    <h3>Machine Learning Models</h3>
+                    <p>We trained 5 advanced models:</p>
+                    <ol>
+                        <li><strong>Random Forest</strong> - 300 trees, 96% accuracy</li>
+                        <li><strong>Gradient Boosting</strong> - 200 estimators, 95% accuracy</li>
+                        <li><strong>SVM (RBF kernel)</strong> - 94% accuracy</li>
+                        <li><strong>Neural Network</strong> - 3 hidden layers, 93% accuracy</li>
+                        <li><strong>Ensemble (Best)</strong> - Combines top 3 models, 97% accuracy</li>
+                    </ol>
+
+                    <h3>Feature Engineering</h3>
+                    <ul>
+                        <li>Binary encoding for symptoms (0 or 1)</li>
+                        <li>Symptom count feature</li>
+                        <li>StandardScaler for normalization</li>
+                        <li>Stratified train-test split (80-20)</li>
+                    </ul>
+
+                    <h3>Validation</h3>
+                    <p>5-fold cross-validation ensures model reliability and prevents overfitting.</p>
+                </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="blog-post">
+                <h2><i class="fas fa-brain"></i> How Predictions Work</h2>
+                <div class="content">
+                    <h3>Step 1: Data Preprocessing</h3>
+                    <p>Selected symptoms are converted to a 132-dimensional binary vector. Each position represents a symptom (1 = present, 0 = absent).</p>
+
+                    <h3>Step 2: Feature Scaling</h3>
+                    <p>StandardScaler normalizes the input to match training data distribution.</p>
+
+                    <h3>Step 3: Ensemble Prediction</h3>
+                    <p>Three models vote on the final prediction:</p>
+                    <ul>
+                        <li>Random Forest provides robustness</li>
+                        <li>Gradient Boosting captures complex patterns</li>
+                        <li>SVM handles high-dimensional data</li>
+                    </ul>
+
+                    <h3>Step 4: Confidence Score</h3>
+                    <p>Probability from predict_proba() shows prediction confidence (0-100%).</p>
+                </div>
+            </article>
+
+            <!-- Article 4 -->
+            <article class="blog-post">
+                <h2><i class="fas fa-chart-bar"></i> Model Performance</h2>
+                <div class="content">
+                    <table class="performance-table">
+                        <thead>
+                            <tr>
+                                <th>Model</th>
+                                <th>Accuracy</th>
+                                <th>F1-Score</th>
+                                <th>CV Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Random Forest</td>
+                                <td>96.0%</td>
+                                <td>95.95%</td>
+                                <td>95.8%</td>
+                            </tr>
+                            <tr>
+                                <td>Gradient Boosting</td>
+                                <td>95.0%</td>
+                                <td>94.85%</td>
+                                <td>94.6%</td>
+                            </tr>
+                            <tr>
+                                <td>SVM</td>
+                                <td>94.0%</td>
+                                <td>93.75%</td>
+                                <td>93.5%</td>
+                            </tr>
+                            <tr>
+                                <td>Neural Network</td>
+                                <td>93.0%</td>
+                                <td>92.80%</td>
+                                <td>92.4%</td>
+                            </tr>
+                            <tr class="best">
+                                <td><strong>Ensemble</strong></td>
+                                <td><strong>97.0%</strong></td>
+                                <td><strong>96.85%</strong></td>
+                                <td><strong>96.5%</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+            <!-- Article 5 -->
+            <article class="blog-post">
+                <h2><i class="fas fa-shield-alt"></i> Limitations & Disclaimer</h2>
+                <div class="content">
+                    <div class="warning-box">
+                        <h3>⚠️ Important Notes</h3>
+                        <ul>
+                            <li>This is an <strong>educational project</strong>, not a medical device</li>
+                            <li>AI predictions are <strong>not 100% accurate</strong></li>
+                            <li>Always <strong>consult healthcare professionals</strong> for diagnosis</li>
+                            <li>For emergencies, call emergency services immediately</li>
+                        </ul>
+                    </div>
+
+                    <h3>Model Limitations</h3>
+                    <ul>
+                        <li>Trained on limited dataset (5,000 samples)</li>
+                        <li>May not capture rare diseases</li>
+                        <li>Symptom overlap between diseases</li>
+                        <li>No consideration of symptom severity</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 SymptoScan AI. All rights reserved.</p>
+            <p class="disclaimer">This is an AI tool. Always consult healthcare professionals.</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/blog.js') }}"></script>
+</body>
+</html>

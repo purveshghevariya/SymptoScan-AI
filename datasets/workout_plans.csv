@@ -1,0 +1,54 @@
+Disease,Exercise,Duration,Frequency,Intensity
+Diabetes,Walking,30 min,Daily,Moderate
+Diabetes,Cycling,30 min,3x/week,Moderate
+Diabetes,Swimming,30 min,2x/week,Moderate
+Diabetes,Strength training,20 min,2x/week,Light to Moderate
+Hypertension,Walking,30 min,Daily,Low to Moderate
+Hypertension,Yoga,30 min,4x/week,Low
+Hypertension,Light jogging,20 min,3x/week,Moderate
+Hypertension,Swimming,25 min,2x/week,Moderate
+Bronchial Asthma,Walking,20 min,5x/week,Light
+Bronchial Asthma,Swimming,25 min,2x/week,Light to Moderate
+Bronchial Asthma,Yoga,20 min,3x/week,Light
+Heart attack,Cardiac rehabilitation,As prescribed,As prescribed,Low
+Heart attack,Walking,10-15 min,Daily,Very Light
+Osteoarthristis,Walking,20 min,Daily,Light
+Osteoarthristis,Water aerobics,30 min,3x/week,Light
+Osteoarthristis,Stretching,15 min,Daily,Light
+Arthritis,Range of motion exercises,15 min,Daily,Light
+Arthritis,Walking,20 min,5x/week,Light
+Arthritis,Swimming,25 min,2x/week,Light
+Hypothyroidism,Walking,30 min,5x/week,Moderate
+Hypothyroidism,Strength training,25 min,3x/week,Moderate
+Hypothyroidism,Yoga,30 min,2x/week,Light to Moderate
+Hyperthyroidism,Walking,20 min,3x/week,Light to Moderate
+Hyperthyroidism,Yoga,25 min,3x/week,Light
+GERD,Walking,20 min,4x/week,Light
+GERD,Yoga (avoid inversions),20 min,3x/week,Light
+Chronic cholestasis,Walking,20 min,4x/week,Light to Moderate
+Chronic cholestasis,Stretching,15 min,Daily,Light
+Peptic ulcer disease,Walking,20 min,3x/week,Light
+Peptic ulcer disease,Yoga,20 min,2x/week,Light
+Gastroenteritis,Rest,N/A,As needed,Rest
+Gastroenteritis,Gentle walking (after recovery),10 min,2x/week,Very Light
+Migraine,Yoga,20 min,3x/week,Light
+Migraine,Walking,20 min,4x/week,Light to Moderate
+Cervical spondylosis,Neck exercises,10 min,Daily,Light
+Cervical spondylosis,Walking,25 min,4x/week,Moderate
+Cervical spondylosis,Swimming,20 min,2x/week,Light
+Varicose veins,Walking,25 min,Daily,Moderate
+Varicose veins,Leg elevation exercises,10 min,Twice daily,Light
+Varicose veins,Cycling,20 min,3x/week,Moderate
+Psoriasis,Walking,30 min,4x/week,Moderate
+Psoriasis,Swimming,25 min,2x/week,Moderate
+Psoriasis,Yoga,30 min,3x/week,Light to Moderate
+Acne,Walking,25 min,4x/week,Moderate
+Acne,Yoga,20 min,3x/week,Light to Moderate
+Common Cold,Rest,N/A,As needed,Rest
+Common Cold,Gentle walking (if feeling better),10 min,1x/day,Very Light
+Pneumonia,Rest,N/A,As needed,Rest
+Pneumonia,Breathing exercises,5 min,3x/day,Light
+Tuberculosis,Walking (after initial treatment),15 min,3x/week,Light
+Tuberculosis,Breathing exercises,10 min,Daily,Light
+Urinary tract infection,Gentle walking,15 min,2x/week,Light
+Urinary tract infection,Pelvic floor exercises,10 min,Daily,Light

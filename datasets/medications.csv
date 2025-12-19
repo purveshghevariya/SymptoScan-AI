@@ -1,0 +1,42 @@
+Disease,Medications,Dosage,Duration
+Fungal infection,"Clotrimazole,Fluconazole,Terbinafine",200mg daily,2-4 weeks
+Allergy,"Cetirizine,Loratadine,Fexofenadine",10mg once daily,As needed
+GERD,"Omeprazole,Pantoprazole,Ranitidine",20-40mg daily,4-8 weeks
+Chronic cholestasis,"Ursodeoxycholic acid,Cholestyramine",15mg/kg daily,Long-term
+Drug Reaction,"Antihistamines,Corticosteroids",As prescribed,Until resolved
+Peptic ulcer disease,"Omeprazole,Amoxicillin,Clarithromycin",20mg twice daily,2 weeks
+AIDS,"Antiretroviral therapy (ART)",As prescribed,Lifelong
+Diabetes,"Metformin,Glipizide,Insulin",500-1000mg daily,Long-term
+Gastroenteritis,"Oral rehydration salts,Probiotics",As needed,3-7 days
+Bronchial Asthma,"Albuterol,Fluticasone,Montelukast",2 puffs as needed,Long-term
+Hypertension,"Amlodipine,Lisinopril,Losartan",5-10mg daily,Long-term
+Migraine,"Sumatriptan,Ibuprofen,Propranolol",50-100mg as needed,As needed
+Cervical spondylosis,"NSAIDs,Muscle relaxants,Physical therapy",As prescribed,4-6 weeks
+Paralysis (brain hemorrhage),"Blood pressure control,Physical therapy",As prescribed,Long-term rehabilitation
+Jaundice,"Treat underlying cause",As prescribed,Variable
+Malaria,"Artemether-lumefantrine,Chloroquine",As prescribed,3 days
+Chicken pox,"Acyclovir,Calamine lotion",800mg 5 times daily,7 days
+Dengue,"Acetaminophen,IV fluids",As prescribed,7-10 days
+Typhoid,"Ciprofloxacin,Azithromycin,Ceftriaxone",500mg twice daily,7-14 days
+Hepatitis A,"Rest,Supportive care",N/A,2-6 months
+Hepatitis B,"Antivirals (Tenofovir,Entecavir)",As prescribed,Long-term
+Hepatitis C,"Sofosbuvir,Ledipasvir",400/90mg daily,12 weeks
+Hepatitis D,"Interferon alfa",As prescribed,48 weeks
+Hepatitis E,"Supportive care,Rest",N/A,2-6 weeks
+Alcoholic hepatitis,"Corticosteroids,Pentoxifylline",40mg daily,28 days
+Tuberculosis,"Rifampicin,Isoniazid,Pyrazinamide,Ethambutol",As prescribed,6-9 months
+Common Cold,"Rest,Fluids,Decongestants",As needed,5-7 days
+Pneumonia,"Amoxicillin,Azithromycin",500mg three times daily,7-10 days
+Dimorphic hemmorhoids(piles),"Fiber supplements,Stool softeners,Topical treatments",As prescribed,2-4 weeks
+Heart attack,"Aspirin,Beta blockers,ACE inhibitors",As prescribed,Long-term
+Varicose veins,"Compression stockings,Sclerotherapy",N/A,Variable
+Hypothyroidism,"Levothyroxine",25-200mcg daily,Lifelong
+Hyperthyroidism,"Methimazole,Propylthiouracil,Beta blockers",As prescribed,Long-term
+Hypoglycemia,"Glucose tablets,Adjust diabetes medications",15g carbs,Immediate
+Osteoarthristis,"NSAIDs,Acetaminophen,Physical therapy",As prescribed,Long-term
+Arthritis,"NSAIDs,DMARDs,Biologics",As prescribed,Long-term
+Paroxysmal Positional Vertigo,"Epley maneuver,Antihistamines",As prescribed,Variable
+Acne,"Benzoyl peroxide,Retinoids,Antibiotics",Apply twice daily,3-6 months
+Urinary tract infection,"Trimethoprim-sulfamethoxazole,Nitrofurantoin",160/800mg twice daily,3-7 days
+Psoriasis,"Topical corticosteroids,Vitamin D analogs,Biologics",As prescribed,Long-term
+Impetigo,"Mupirocin ointment,Oral antibiotics",Apply three times daily,7-10 days

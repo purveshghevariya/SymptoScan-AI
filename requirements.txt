@@ -1,0 +1,29 @@
+# Core Dependencies
+Flask==2.3.0
+Werkzeug==2.3.0
+
+# Machine Learning (Python 3.12 compatible)
+numpy==1.26.4
+scikit-learn==1.5.1
+pandas==2.2.2
+
+# Data Visualization
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# PDF Generation
+reportlab==4.2.0
+
+# Model Serialization
+joblib==1.4.2
+
+# Additional Utilities
+Jinja2==3.1.2
+MarkupSafe==2.1.5
+click==8.1.7
+itsdangerous==2.1.2
+
+# Optional but recommended
+python-dateutil==2.9.0.post0
+pytz==2024.1
+threadpoolctl==3.5.0
